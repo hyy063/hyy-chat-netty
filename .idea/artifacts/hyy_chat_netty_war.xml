@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hyy-chat-netty:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hyy-chat-netty</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hyy-chat-netty-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hyy-chat-netty:war exploded" />
+    </root>
+  </artifact>
+</component>
